@@ -1,0 +1,57 @@
+/* Resetando margens e preenchimentos para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo um fundo para a página */
+body {
+    background-color: #c3f5f8; /* Cor de fundo suave */
+    font-family: Arial, sans-serif; /* Fonte moderna */
+    height: 100vh; /* Garantindo que ocupe toda a altura da tela */
+    display: flex; /* Usando flexbox para centralizar */
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+    text-align: center; /* Centralizando o texto dentro do body */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilizando o título */
+h1 {
+    color: #4c5baf; /* Cor verde suave */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    font-size: 2.5em; /* Tamanho do título */
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    border: none;
+    padding: 10px 20px; /* Padding confortável */
+    font-size: 1.2em;
+    margin: 10px; /* Espaçamento entre os botões */
+    cursor: pointer; /* Cursor de clique */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+/* Efeito de hover nos botões */
+button:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilo da área de resultados */
+#resultado {
+    margin-top: 20px; /* Espaçamento superior */
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o resultado */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras sutis */
+}
+
+
+
+
+
