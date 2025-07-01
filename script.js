@@ -1,5 +1,5 @@
 function irParaExemploFormulario() {
-    window.location.href = 'Exemplo 1 - Formulário com salvamento em txt-20250628/index.html';
+    window.location.href = 'Exemplo 1 - Formulario com salvamento em txt-20250628/index.html';
 }
 
 function irParaExemploLista() {
